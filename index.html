@@ -1,46 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfólio - Samuel Yossef</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Samuel Yossef Santos Cavalcante</h1>
-    <p>RA: 22509125 | Turma C - 0225 - Virtual - 2025/1 DV</p>
+    <div class="container">
+      <h1>Samuel Yossef Santos Cavalcante</h1>
+      <p>RA: 22509125 | Turma C - 0225 - Virtual - 2025/1 DV</p>
+    </div>
   </header>
 
-  <main>
-    <section>
+  <main class="container">
+    <section class="card">
       <h2>📄 Currículo</h2>
-      <p><a href="https://docs.google.com/document/d/1GT9RK0q5j7HY2M6_HIAmCGDwDNcFK-YUqPv1asD9b_8/edit?tab=t.0" target="_blank">Visualizar Currículo</a></p>
+      <a href="https://docs.google.com/document/d/1GT9RK0q5j7HY2M6_HIAmCGDwDNcFK-YUqPv1asD9b_8/edit?tab=t.0" target="_blank" class="btn">Visualizar Currículo</a>
     </section>
 
-    <section>
+    <section class="card">
       <h2>📁 Portfólio</h2>
-      <p><a href="https://docs.google.com/document/d/18S0RfZsKMsTNGA_s651axlB5pcFB57qqJLC-s3L4mNk/edit?tab=t.0" target="_blank">Visualizar Portfólio</a></p>
+      <a href="https://docs.google.com/document/d/18S0RfZsKMsTNGA_s651axlB5pcFB57qqJLC-s3L4mNk/edit?tab=t.0" target="_blank" class="btn">Visualizar Portfólio</a>
     </section>
 
-    <section>
+    <section class="card">
       <h2>🎥 Vídeo de Apresentação</h2>
-      <p><a href="https://youtu.be/HIFRjU2Jb7c?si=d6sdsv1wYjJbZBZJ" target="_blank">Assistir no YouTube</a></p>
+      <a href="https://youtu.be/HIFRjU2Jb7c?si=d6sdsv1wYjJbZBZJ" target="_blank" class="btn">Assistir no YouTube</a>
     </section>
 
-    <section>
+    <section class="card">
       <h2>📂 Pasta no Drive</h2>
-      <p><a href="https://drive.google.com/drive/folders/1NgMwDlhQkhTMlaT_TEnku1U4iaaQzInj?usp=drive_link" target="_blank">Acessar Pasta</a></p>
+      <a href="https://drive.google.com/drive/folders/1NgMwDlhQkhTMlaT_TEnku1U4iaaQzInj?usp=drive_link" target="_blank" class="btn">Acessar Pasta</a>
     </section>
 
-    <section>
+    <section class="card">
       <h2>📊 Apresentação - Slides</h2>
-      <p><a href="https://1drv.ms/p/c/d52969abb1435641/EeUThKIiMDdNtlkM1dFhujwBJBAttQ95cibHHqnxTKwUBQ?e=sharelink" target="_blank">Visualizar Slides</a></p>
+      <a href="https://1drv.ms/p/c/d52969abb1435641/EeUThKIiMDdNtlkM1dFhujwBJBAttQ95cibHHqnxTKwUBQ?e=sharelink" target="_blank" class="btn">Visualizar Slides</a>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Samuel Yossef</p>
+    <div class="container">
+      <p>© 2025 Samuel Yossef — 
+        <a href="https://github.com/say0dev" target="_blank">GitHub</a> | 
+        <a href="https://instagram.com/sayosaca" target="_blank">Instagram</a> | 
+        <a href="https://www.linkedin.com/in/samuel-yossef-cavalcante-8bb511365" target="_blank">LinkedIn</a>
+      </p>
+    </div>
   </footer>
 </body>
 </html>
+🎨 style.css:
+css
+Copiar
+Editar
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f4f4f8;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+footer {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
