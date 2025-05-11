@@ -5,4 +5,4 @@
 ## Meios de contato👇🏼
    e-mail: yossefsamuel2006@gmail.com
    Instagram: .sayosaca.
-   LinkedIn: Samuel Yossef Cavalcante
+   LinkedIn: linkedin.com/in/samuel-yossef-cavalcante-8bb511365
