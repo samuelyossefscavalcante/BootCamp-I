@@ -6,3 +6,4 @@
    e-mail: yossefsamuel2006@gmail.com
    Instagram: .sayosaca.
    LinkedIn:  https://www.linkedin.com/in/samuel-yossef-cavalcante-8bb511365
+Conheça mais sobre mim: https://sites.google.com/view/trabalhobootcampceubsysc/in%C3%ADcio
